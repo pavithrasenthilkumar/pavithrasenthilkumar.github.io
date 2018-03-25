@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="manifest" href="/manifest.json">3
+<title>SMART HERBAL CARE</title>
+<script>
+
+function validateForm() {
+var y = document.forms["a"]["mobno"].value;
+    if (y == "") {
+        alert("Mobile_No must be filled out");
+        return false;
+}
+}
+</script>
+
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body background="https://drchauhanayurveda.com/wp-content/uploads/2017/01/Slider_1.jpg" width="1000" height="1000">
+        <form name="a" onsubmit="return validateForm()" method="post" action="1.html">
+            <table align="center">
+               <h2><center>ONLINE HERBS SHOPPING</center></h2>
+                <tr> <td>NAME:</td>
+                    <td><input type="text" /></td>
+                </tr>
+		<tr>
+
+  <td>Sex</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+
+  </tr>
+  <tr>
+
+  <td>DOB</td>
+
+  <td><input type="text" name="dob" id="dob" size="30" ></td>
+
+  </tr>
+                <tr> <td>MOBILE NO:</td>
+                    <td><input type="text" name="mobno" /></td>
+                </tr>
+                <tr> <td>EMAIL ID:</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>ADDRESS:</td>
+                    <td>
+                <textarea rows="5" cols="20">Address</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PRODUCT CATEGORY:</td>
+                    <td>
+                <select name="b">
+                    <option value="c">SHISHU CARE</option>
+                    <option value="d">PERSONAL CARE</option>
+                </select>  
+                        </td>
+                        
+            </tr>
+            <tr>
+                <td>AVAILABLE PRODUCTS</td>
+                <td> <select name="e">
+                    <option value="f">BABY OIL</option>
+                    <option value="g">BABY LOTION</option>
+                    <option value="f">BABY CREAM</option>
+                </select> </td>
+            </tr>
+            <tr>
+                    <td>SUGGESTIONS</td>
+                    <td>
+                <textarea rows="3" cols="20"></textarea>
+                    </td>
+                </tr>
+            <tr>
+                <td>TYPE OF PAYMENT:</td>
+                <td> 
+                    <input type="radio">CASH ON DELIVERY<br>
+                    <input type="radio">CREDIT/DEBIT<br>
+                    <input type="radio">NET BANKING
+                </td>
+            </tr>
+            <tr>
+
+  <td><input type="reset" value="Reset Form"></td>
+
+  <td colspan="2"><input type="submit" value="Submit"></td>
+
+  </tr>
+    </table>
+    </form>  
+<script src="serv.js"></script>
+    </body>
+</html>
